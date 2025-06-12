@@ -12,7 +12,7 @@ textarea::placeholder {
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--background-cor);
-    width: 100vw;
+    width: 100%;
 }
 
 h2 {

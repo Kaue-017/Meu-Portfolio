@@ -37,7 +37,7 @@
 
     .projetos .container-projetos .projeto {
         width: 350px;
-        height: 450px;
+        height: 460px;
     }
 
     .projetos .container-projetos .projeto img {
@@ -51,6 +51,7 @@
 
     .projetos .container-projetos .projeto p {
         font-size: 16px;
+        min-height: 95px;
     }
 
     .projetos .container-projetos .projeto .linguagem {
@@ -109,7 +110,7 @@
 
     .projetos .container-projetos .projeto {
         width: 300px;
-        height: 400px;
+        height: 420px;
     }
 
     .projetos .container-projetos .projeto img {
@@ -124,6 +125,7 @@
 
     .projetos .container-projetos .projeto p {
         font-size: 16px;
+        min-height: 114px;
     }
 
     .projetos .container-projetos .projeto .linguagem {
@@ -329,6 +331,7 @@
 
     .projetos .container-projetos .projeto p {
         font-size: 14px;
+        min-height: 68px;
     }
 
     .projetos .container-projetos .projeto .linguagem {
@@ -461,6 +464,11 @@
         height: 200px;
     }
 
+    .projetos .container-projetos .projeto p {
+        font-size: 14px;
+        min-height: 85px;
+    }
+
     .entre-em-contato {
         padding: 0 20px;
     }
@@ -512,6 +520,11 @@
 
     .projetos .container-projetos .projeto a {
         font-size: 10px;
+    }
+
+    .projetos .container-projetos .projeto p {
+        font-size: 14px;
+        min-height: 102px;
     }
 
 }

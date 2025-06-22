@@ -12,7 +12,7 @@ textarea::placeholder {
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--background-cor);
-    width: 100vw;
+    width: 100%;
 }
 
 h2 {
@@ -227,11 +227,12 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .projetos .container-projetos .projeto {
     width: 400px;
-    height: 530px;
+    height: 550px;
     background-color: #282828;
     border-radius: 15px;
     display: flex;
@@ -263,6 +264,7 @@ h2 {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 15px;
+    min-height: 113px;
 }
 
 .projetos .container-projetos .projeto .linguagem {
@@ -283,7 +285,7 @@ h2 {
 
 .projetos .container-projetos .projeto a {
     width: 173px;
-    height: 30px;
+    height: 35px;
     background-color: #7C3AED;
     border-radius: 15px;
     font-size: 18px;

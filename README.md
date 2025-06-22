@@ -41,6 +41,10 @@ Este portfólio tem como objetivo apresentar um pouco sobre mim, minhas habilida
 
 Sem frameworks, bibliotecas ou templates prontos — tudo foi desenvolvido manualmente, reforçando meu aprendizado e prática com essas tecnologias.
 
+## 🔗 Acesse o projeto
+
+- 🖥️ [Ver projeto online](https://portfolio-kaue-rd.vercel.app/)
+
 ## 📂 O que você encontrará
 
 - **Sobre mim:** Um resumo da minha trajetória.

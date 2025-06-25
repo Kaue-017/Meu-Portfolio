@@ -146,6 +146,28 @@ h2 {
     color: blue;
 }
 
+.quem-sou .baixar-cv {
+    margin-top: 9px;
+    height: 30px;
+    width: 80px;
+}
+
+.quem-sou .baixar-cv button {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.quem-sou .baixar-cv button:hover {
+    background-color: blue;
+}
+
 .sobre-mim {
     background: linear-gradient(to bottom, black 0%, transparent 30%), var(--background-cor);
     height: 100vh;

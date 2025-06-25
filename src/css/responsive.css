@@ -198,8 +198,20 @@
         font-size: 55px;
     }
 
+    .quem-sou .redes-sociais {
+        height: 43px;
+    }
+
+    .quem-sou .redes-sociais a {
+        height: 43px;
+    }
+
     .quem-sou .redes-sociais .fab {
         font-size: 40px;
+    }
+
+    .quem-sou .baixar-cv {
+        margin-top: 4px;
     }
 
     .entre-em-contato h2 {

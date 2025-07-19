@@ -10,7 +10,7 @@ export const Header = () => {
     return (
         <HeaderContainer>
             <div>
-                <Link to="/Portfolio-Kaue" className="me">
+                <Link to="/" className="me">
                     <strong>Desenvolvedor Front-End</strong>
                 </Link>
             </div>
@@ -20,7 +20,7 @@ export const Header = () => {
                     {navTitles.map((navTitle, index) => {
                         return (
                             <li key={index}>
-                                <Link to={`/Portfolio-Kaue/${navTitle.toLowerCase().replace(/\s+/g, '-')}`}>{navTitle}</Link>
+                                <Link to={`/${navTitle.toLowerCase().replace(/\s+/g, '-')}`}>{navTitle}</Link>
                             </li>
                         )
                     })}

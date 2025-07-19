@@ -37,11 +37,11 @@ export const WhoIAm = () => {
                         <h1>Desenvolvedor <br /><span className="highlight-title">{text}</span><span id="cursor-style"><Cursor /></span></h1>
                         <p>Olá! Sou o Kaue, Desenvolvedor Front-End Júnior com conhecimento em <span>React, JavaScript, HTML e CSS.</span> Crio <span>interfaces modernas, responsivas</span> e focadas na melhor experiência do usuário, sempre aplicando boas práticas de desenvolvimento. <br /><br />Estou em constante evolução, aprimorando minhas habilidades por meio de <span>projetos próprios e estudos contínuos.</span> No momento, busco oportunidades profissionais onde eu possa aplicar meu conhecimento, colaborar com soluções de qualidade e seguir crescendo na área.<br /><br /> Se você procura alguém comprometido, proativo e com foco em resultados, estou pronto para contribuir.</p>
                     </div>
-                    <img src="/Portfolio-Kaue/images/Kaue.jpg" />
+                    <img src="/images/Kaue.jpg" />
                 </div>
                 <aside>
                     <div className="download-cv">
-                        <a href="/Portfolio-Kaue/arquivos/Kaue_Sousa_CV.pdf" download>
+                        <a href="/arquivos/Kaue_Sousa_CV.pdf" download>
                             <button><FaDownload /> Baixar CV</button>
                         </a>
                     </div>
@@ -60,7 +60,7 @@ export const WhoIAm = () => {
 }
 
 const Section = styled.section`
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/Portfolio-Kaue/images/background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/images/background.jpeg);
     background-size: contain;
     color: ${theme.textColor};
     display: flex;

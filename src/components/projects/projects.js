@@ -1,6 +1,6 @@
 export const projects = [
     {
-        image: "/Portfolio-Kaue/images/portfolio.png",
+        image: "/images/portfolio.png",
         name: "Portfolio",
         description: "Desenvolvi este projeto do zero com o objetivo de falar mais sobre mim, destacar minhas habilidades, exibir meus projetos e facilitar o contato profissional.",
         languages: ["React", "JavaScript"],
@@ -8,7 +8,7 @@ export const projects = [
         deploy: "https://portfolio-kaue-rd.vercel.app/"
     },
     {
-        image: "/Portfolio-Kaue/images/imagemgerador.png",
+        image: "/images/imagemgerador.png",
         name: "Gerador de conselhos",
         description: "Esse foi um projeto que desenvolvi como parte de um desafio do curso DevQuest fazendo requisição com fetch a uma API pública",
         languages: ["HTML", "CSS", "JavaScript"],
@@ -16,7 +16,7 @@ export const projects = [
         deploy: "https://kaue-017.github.io/Gerador-de-conselhos/"
     },
     {
-        image: "/Portfolio-Kaue/images/imagemgithubapi.png",
+        image: "/images/imagemgithubapi.png",
         name: "GitHub API",
         description: "Projeto desenvolvido como parte de um desafio do curso com o objetivo de consumir uma API do GitHub para trazer informações de um usuário",
         languages: ["HTML", "CSS", "JavaScript"],

@@ -7,10 +7,10 @@ import { Contact } from "../components/contact";
 export const AppRoutes = () => (
     <BrowserRouter>
         <Routes>
-            <Route exact path="/Portfolio-Kaue" element={<WhoIAm />} />
-            <Route exact path="/Portfolio-Kaue/projetos" element={<Projects />} />
-            <Route exact path="/Portfolio-Kaue/habilidades" element={<Skills />} />
-            <Route exact path="/Portfolio-Kaue/contato" element={<Contact />} />
+            <Route exact path="/" element={<WhoIAm />} />
+            <Route exact path="/projetos" element={<Projects />} />
+            <Route exact path="/habilidades" element={<Skills />} />
+            <Route exact path="/contato" element={<Contact />} />
         </Routes>
     </BrowserRouter>
 )

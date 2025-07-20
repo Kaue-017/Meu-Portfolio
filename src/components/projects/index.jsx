@@ -10,36 +10,39 @@ export const Projects = () => {
     return (
         <>
             <Header />
-            <Section>
-                <div className="container-projects">
-                    {projects.map((project, index) => {
-                        return (
-                            <div key={index} className="project">
-                                <img src={project.image} alt={project.name} />
-                                <h3>{project.name}</h3>
-                                <p>{project.description}</p>
-                                <div className="languages">
-                                    {project.languages.map((language, index) => {
-                                        return (
-                                            <span key={index} className="language">{language}</span>
-                                        )
-                                    })}
+            <main>
+                <Section>
+                    <div className="container-projects">
+                        {projects.map((project, index) => {
+                            return (
+                                <div key={index} className="project">
+                                    <img src={project.image} alt={project.name} />
+                                    <h3>{project.name}</h3>
+                                    <p>{project.description}</p>
+                                    <div className="languages">
+                                        {project.languages.map((language, index) => {
+                                            return (
+                                                <span key={index} className="language">{language}</span>
+                                            )
+                                        })}
+                                    </div>
+                                    <div className="links-project">
+                                        <a href={project.repository} target="_blank" rel="noopener noreferrer"><FaGithub /> Repositório</a>
+                                        <a href={project.deploy} target="_blank" rel="noopener noreferrer"><FaGlobe />Deploy</a>
+                                    </div>
                                 </div>
-                                <div className="links-project">
-                                    <a href={project.repository} target="_blank"><FaGithub /> Repositório</a>
-                                    <a href={project.deploy} target="_blank"><FaGlobe />Deploy</a>
-                                </div>
-                            </div>
-                        )
-                    })}
-                </div>
-            </Section>
+                            )
+                        })}
+                    </div>
+                </Section>
+            </main>
         </>
     )
 }
 
 const Section = styled.section`
 padding-top: 150px;
+height: 100%;
 
 .container-projects {
     display: flex;

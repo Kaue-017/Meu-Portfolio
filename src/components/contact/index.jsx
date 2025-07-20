@@ -2,44 +2,46 @@
 import styled from "styled-components";
 import { Header } from "../header";
 import { useForm } from "react-hook-form";
-import { handleSubmitForm } from "./handleSubmitForm";
 import { theme } from "../theme";
 
 export const Contact = () => {
-    const { register, handleSubmit, reset,  formState: { errors } } = useForm();
-    const onSubmit = (data) => {
-        handleSubmitForm(data, reset)
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
+    const onSubmit = (data, e) => {
+        e.target.submit();
     }
 
     return (
         <>
             <Header />
-            <Section>
-                <div className="text">
-                    <h2>Entre em contato</h2>
-                    <p>Se quiser tirar algum projeto do papel, colaborar em algo ou falar sobre oportunidades de trabalho, preencha esse formulário e vamos conversar.<br /> Responderei assim que possível!</p>
-                </div>
-                <form onSubmit={handleSubmit(onSubmit)}>
-                    <label htmlFor="name">Nome:</label>
-                    <input type="text" id="name" placeholder="Digite seu nome" className={`${errors.name ? "required-field" : ""}`}
-                        {...register("name", {
-                            required: true
-                        })} />
+            <main>
+                <Section>
+                    <div className="text">
+                        <h2>Entre em contato</h2>
+                        <p>Se quiser tirar algum projeto do papel, colaborar em algo ou falar sobre oportunidades de trabalho, preencha esse formulário e vamos conversar.<br /> Responderei assim que possível!</p>
+                    </div>
+                    <form action="https://formsubmit.co/kaue7rodrigues10@gmail.com" method="POST" onSubmit={handleSubmit(onSubmit)}>
+                        <label htmlFor="name">Nome:</label>
+                        <input type="text" id="name" placeholder="Digite seu nome" className={`${errors.name ? "required-field" : ""}`}
+                            {...register("name", {
+                                required: true
+                            })} />
                         <label htmlFor="email">Email:</label>
-                    <input type="email" placeholder="Digite seu email" className={`${errors.email ? "required-field" : ""}`}
-                        {...register("email", {
-                            required: true
-                        })} />
+                        <input type="email" placeholder="Digite seu email" className={`${errors.email ? "required-field" : ""}`}
+                            {...register("email", {
+                                required: true
+                            })} />
                         <label htmlFor="message">Mensagem:</label>
-                    <textarea placeholder="Digite sua mensagem" className={`${errors.message ? "required-field" : ""}`}
-                        {...register("message", {
-                            required: true
-                        })} />
-                    <button type="submit" className="enviar">
-                        Enviar mensagem
-                    </button>
-                </form>
-            </Section>
+                        <textarea placeholder="Digite sua mensagem" className={`${errors.message ? "required-field" : ""}`}
+                            {...register("message", {
+                                required: true
+                            })} />
+                        <button type="submit" >
+                            Enviar mensagem
+                        </button>
+                    </form>
+                </Section>
+            </main>
         </>
     )
 }

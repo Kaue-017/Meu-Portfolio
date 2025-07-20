@@ -1,53 +1,40 @@
-# Meu Portfólio
+# Meu Portfólio 🚀
 
-Bem-vindo ao repositório do meu portfólio pessoal! 🎨🚀
+Bem-vindo ao repositório da **nova versão do meu portfólio pessoal!**
 
-Este projeto foi desenvolvido do zero, utilizando apenas HTML, CSS e JavaScript, aplicando todos os conhecimentos adquiridos no curso **DevQuest**.
+Este projeto foi desenvolvido do zero, agora utilizando **React** e outras ferramentas modernas, aplicando na prática os conhecimentos adquiridos na minha jornada como desenvolvedor.
+
+---
 
 ## 🔍 Sobre
 
-Este portfólio tem como objetivo apresentar um pouco sobre mim, minhas habilidades, projetos e formas de contato. Ele serve como uma vitrine online do meu trabalho e da minha jornada como desenvolvedor.
+Este portfólio tem como objetivo apresentar um pouco sobre mim, minhas habilidades, projetos e formas de contato.  
+Ele funciona como uma vitrine online do meu trabalho e evolução na área de desenvolvimento.
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**  
-- **CSS3**  
-- **JavaScript**  
+- **React**
+- **JavaScript (ES6+)**
+- **Vite**
+- **Styled-Components**
+- **React Hook Form**
+- **React Router DOM**
+- **React Icons**
+- **Swiper.js**
 
-Sem frameworks, bibliotecas ou templates prontos — tudo foi desenvolvido manualmente, reforçando meu aprendizado e prática com essas tecnologias.
+---
 
 ## 📂 O que você encontrará
 
-- **Sobre mim:** Um resumo da minha trajetória.
-- **Habilidades:** Principais tecnologias que domino.
+- **Sobre mim:** Um resumo da minha trajetória e interesses.
+- **Habilidades:** Principais tecnologias e ferramentas que domino.
 - **Projetos:** Alguns dos trabalhos e desafios que realizei.
-- **Contato:** Formas de entrar em contato comigo.
-=======
-# Meu Portfólio
+- **Contato:** Formas de entrar em contato comigo, incluindo um formulário funcional.
 
-Bem-vindo ao repositório do meu portfólio pessoal! 🎨🚀
-
-Este projeto foi desenvolvido do zero, utilizando apenas HTML, CSS e JavaScript, aplicando todos os conhecimentos adquiridos no curso **DevQuest**.
-
-## 🔍 Sobre
-
-Este portfólio tem como objetivo apresentar um pouco sobre mim, minhas habilidades, projetos e formas de contato. Ele serve como uma vitrine online do meu trabalho e da minha jornada como desenvolvedor.
-
-## 🛠️ Tecnologias Utilizadas
-
-- **HTML5**  
-- **CSS3**  
-- **JavaScript**  
-
-Sem frameworks, bibliotecas ou templates prontos — tudo foi desenvolvido manualmente, reforçando meu aprendizado e prática com essas tecnologias.
+---
 
 ## 🔗 Acesse o projeto
 
-- 🖥️ [Ver projeto online](https://portfolio-kaue-rd.vercel.app/)
-
-## 📂 O que você encontrará
-
-- **Sobre mim:** Um resumo da minha trajetória.
-- **Habilidades:** Principais tecnologias que domino.
-- **Projetos:** Alguns dos trabalhos e desafios que realizei.
-- **Contato:** Formas de entrar em contato comigo.
+🖥️ **[Ver projeto online](https://portfolio-kaue-rd.vercel.app/)**  

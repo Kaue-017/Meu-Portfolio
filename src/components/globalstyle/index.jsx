@@ -14,7 +14,8 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
     width: 100vw;
-    background-color: ${theme.colorBackGround}
+    background-color: ${theme.colorBackGround};
+    overflow-x: hidden;
 }
 
 ul {

@@ -13,28 +13,30 @@ export const Skills = () => {
 
         <>
             <Header />
-            <Section>
-                <div className="container-skills">
-                    <Swiper spaceBetween={20} loop={true} slidesPerView={4} speed={1500} freeMode={true} modules={[Autoplay, FreeMode]}
-                    autoplay={{
-                            delay: 0,
-                            disableOnInteraction: false,
-                        }}>
-                            
-                        {skills.map((skill, index) => {
-                            const Icon = skill.icon
-                            return (
-                                <SwiperSlide key={index}>
-                                    <div className="skill">
-                                        <Icon className="icon" />
-                                        <strong>{skill.name}</strong>
-                                    </div>
-                                </SwiperSlide>
-                            )
-                        })}
-                    </Swiper>
-                </div>
-            </Section>
+            <main>
+                <Section>
+                    <div className="container-skills">
+                        <Swiper spaceBetween={20} loop={true} slidesPerView={4} speed={1500} freeMode={true} modules={[Autoplay, FreeMode]}
+                            autoplay={{
+                                delay: 0,
+                                disableOnInteraction: false,
+                            }}>
+
+                            {skills.map((skill, index) => {
+                                const Icon = skill.icon
+                                return (
+                                    <SwiperSlide key={index}>
+                                        <div className="skill">
+                                            <Icon className="icon" />
+                                            <strong>{skill.name}</strong>
+                                        </div>
+                                    </SwiperSlide>
+                                )
+                            })}
+                        </Swiper>
+                    </div>
+                </Section>
+            </main>
         </>
     )
 }

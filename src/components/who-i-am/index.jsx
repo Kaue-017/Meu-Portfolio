@@ -1,8 +1,9 @@
 import styled from "styled-components"
 import { theme } from "../theme"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
-import { FaLinkedin, FaGithub, FaWhatsapp, FaDownload, } from "react-icons/fa"
+import { FaDownload, } from "react-icons/fa"
 import { Header } from "../header"
+import { socialMediaList } from "../../social-media-list/socialMediaList"
 
 export const WhoIAm = () => {
     const [text] = useTypewriter({
@@ -13,48 +14,35 @@ export const WhoIAm = () => {
         delaySpeed: 10000
     })
 
-    const socialMediaList = [
-        {
-            link: "https://www.linkedin.com/in/kaue-rodrigues-dev/",
-            icon: FaLinkedin
-        },
-        {
-            link: "https://github.com/Kaue-017",
-            icon: FaGithub
-        },
-        {
-            link: "https://wa.me/5513996007391",
-            icon: FaWhatsapp
-        }
-    ]
-
     return (
         <>
-        <Header />
-            <Section id="who-i-am">
-                <div className="container-texts">
-                    <div className="texts">
-                        <h1>Desenvolvedor <br /><span className="highlight-title">{text}</span><span id="cursor-style"><Cursor /></span></h1>
-                        <p>Olá! Sou o Kaue, Desenvolvedor Front-End Júnior com conhecimento em <span>React, JavaScript, HTML e CSS.</span> Crio <span>interfaces modernas, responsivas</span> e focadas na melhor experiência do usuário, sempre aplicando boas práticas de desenvolvimento. <br /><br />Estou em constante evolução, aprimorando minhas habilidades por meio de <span>projetos próprios e estudos contínuos.</span> No momento, busco oportunidades profissionais onde eu possa aplicar meu conhecimento, colaborar com soluções de qualidade e seguir crescendo na área.<br /><br /> Se você procura alguém comprometido, proativo e com foco em resultados, estou pronto para contribuir.</p>
+            <Header />
+            <main>
+                <Section id="who-i-am">
+                    <div className="container-texts">
+                        <div className="texts">
+                            <h1>Desenvolvedor <br /><span className="highlight-title">{text}</span><span id="cursor-style"><Cursor /></span></h1>
+                            <p>Olá! Sou o Kaue, Desenvolvedor Front-End Júnior com conhecimento em <span>React, JavaScript, HTML e CSS.</span> Crio <span>interfaces modernas, responsivas</span> e focadas na melhor experiência do usuário, sempre aplicando boas práticas de desenvolvimento. <br /><br />Estou em constante evolução, aprimorando minhas habilidades por meio de <span>projetos próprios e estudos contínuos.</span> No momento, busco oportunidades profissionais onde eu possa aplicar meu conhecimento, colaborar com soluções de qualidade e seguir crescendo na área.<br /><br /> Se você procura alguém comprometido, proativo e com foco em resultados, estou pronto para contribuir.</p>
+                        </div>
+                        <img src="/images/Kaue.jpg" />
                     </div>
-                    <img src="/images/Kaue.jpg" />
-                </div>
-                <aside>
-                    <div className="download-cv">
-                        <a href="/arquivos/Kaue_Sousa_CV.pdf" download>
-                            <button><FaDownload /> Baixar CV</button>
-                        </a>
-                    </div>
-                    <div className="social-media">
-                        {socialMediaList.map((socialMedia, index) => {
-                            const Icon = socialMedia.icon;
-                            return (
-                                <a key={index} href={socialMedia.link} target="_blank"><Icon /></a>
-                            )
-                        })}
-                    </div>
-                </aside>
-            </Section>
+                    <aside>
+                        <div className="download-cv">
+                            <a href="/arquivos/Kaue_Sousa_CV.pdf" download>
+                                <button><FaDownload /> Baixar CV</button>
+                            </a>
+                        </div>
+                        <div className="social-media">
+                            {socialMediaList.map((socialMedia, index) => {
+                                const Icon = socialMedia.icon;
+                                return (
+                                    <a key={index} href={socialMedia.link} target="_blank"><Icon /></a>
+                                )
+                            })}
+                        </div>
+                    </aside>
+                </Section>
+            </main>
         </>
     )
 }
@@ -247,9 +235,8 @@ img {
 }
 
 @media(max-width: 490px) {
-
     background-position: 20% center;
-
+    
     .texts {
         width: 190px;
         margin-left: 30px;

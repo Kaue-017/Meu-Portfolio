@@ -1,9 +1,12 @@
-import { Header } from "./components/header"
+import { BaseBoard } from "./components/footer"
 import { AppRoutes } from "./pages/routes"
 
 function App() {
   return (
-        <AppRoutes />
+    <>
+      <AppRoutes />
+      <BaseBoard />
+    </>
   )
 }
 

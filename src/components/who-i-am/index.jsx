@@ -60,7 +60,7 @@ export const WhoIAm = () => {
 }
 
 const Section = styled.section`
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/images/background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/background.jpeg);
     background-size: contain;
     color: ${theme.textColor};
     display: flex;

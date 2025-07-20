@@ -166,15 +166,15 @@ ul a:hover {
     padding: 0px;
 
     .me {
-        margin-left: 30px;
+        margin-left: 20px;
         display: flex;
-        width: 157px;
+        width: 130px;
         text-align: center;
-        font-size: 20px;
+        font-size: 18px;
     }
     
     nav {
-        margin-right: 25px;
+        margin-right: 35px;
     }
 }
 `

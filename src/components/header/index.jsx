@@ -139,6 +139,8 @@ ul a:hover {
     }
 }
 @media(max-width: 800px) {
+    padding-right: 0;
+
     nav {
         margin-top: 175px;
         display: flex;
@@ -151,7 +153,7 @@ ul a:hover {
         background-color: #282828;
         padding: 20px;
         display: flex;
-        margin-top: 27px;
+        margin: 27px 0 0 0;
         opacity: 0;
         transform: scale(0%);
     }
@@ -159,6 +161,7 @@ ul a:hover {
     .burger-menu {
         display: block;
         width: 30px;
+        margin-right: 40px;
     }
 }
 
@@ -173,8 +176,8 @@ ul a:hover {
         font-size: 18px;
     }
     
-    nav {
-        margin-right: 35px;
+    .burger-menu {
+        margin-right: 25px;
     }
 }
 `

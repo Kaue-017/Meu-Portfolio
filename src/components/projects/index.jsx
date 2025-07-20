@@ -42,7 +42,7 @@ export const Projects = () => {
 
 const Section = styled.section`
 padding-top: 150px;
-height: 100%;
+min-height: 100vh;
 
 .container-projects {
     display: flex;

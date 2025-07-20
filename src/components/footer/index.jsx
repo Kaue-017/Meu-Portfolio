@@ -14,7 +14,7 @@ export const BaseBoard = () => {
                         <a key={index} href={socialMedia.link} target="_blank"><Icon /></a>
                     )
                 })}
-                <div class="email">
+                <div className="email">
                     <FaEnvelope/> <span>kaue7rodrigues10@gmail.com</span>
                 </div>
             </div>

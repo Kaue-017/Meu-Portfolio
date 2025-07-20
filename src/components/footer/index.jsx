@@ -11,7 +11,7 @@ export const BaseBoard = () => {
                 {socialMediaList.map((socialMedia, index) => {
                     const Icon = socialMedia.icon;
                     return (
-                        <a key={index} href={socialMedia.link} target="_blank"><Icon /></a>
+                        <a key={index} href={socialMedia.link} target="_blank" rel="noopener noreferrer"><Icon /></a>
                     )
                 })}
                 <div className="email">

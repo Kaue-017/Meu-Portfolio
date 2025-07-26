@@ -28,7 +28,7 @@ export const WhoIAm = () => {
                     </div>
                     <aside>
                         <div className="download-cv">
-                            <a href="/arquivos/Kaue_Sousa_CV.pdf" download>
+                            <a href="/arquivos/Kaue_Rodrigues_CV.pdf" download>
                                 <button><FaDownload /> Baixar CV</button>
                             </a>
                         </div>
